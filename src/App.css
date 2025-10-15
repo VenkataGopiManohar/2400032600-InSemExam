@@ -1,0 +1,21 @@
+/* index.css */
+
+/* Reset margins & ensure full-screen */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optional body themes */
+body.light {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
